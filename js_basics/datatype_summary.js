@@ -40,3 +40,27 @@ const myFunction = function(){
 console.log(typeof myObj)
 
 //All the typeof of non-primitive types is 'object funciton' only.  
+
+// ********************************** Stack & Heaps *********************************
+
+//Stacks are used for primitive data types
+//Hepas are used for non-primitive data types
+
+let name = "mohit"
+
+let name2 = name
+name2 = "aglawe"
+
+console.log(name)
+console.log(name2)
+
+let obj1 = {
+    name: "tony",
+    age: 16,
+}
+
+let obj2 = obj1
+
+obj2.age = 19
+
+console.log(obj1.age)
